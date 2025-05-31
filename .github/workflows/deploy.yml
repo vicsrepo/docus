@@ -1,5 +1,10 @@
 name: Deploy to GitHub Pages
 
+main:
+git add .github/workflows/deploy.yml
+git commit -m "Add deployment workflow"
+git push origin main
+
 on:
   push:
     branches: [main] # Trigger on pushes to main branch
